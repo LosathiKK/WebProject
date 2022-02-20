@@ -1,0 +1,14 @@
+h1{
+   text-align: center;
+   margin-top:50px;
+   margin-bottom:50px;
+}
+.sub{
+    height: 297px;
+}
+#image{
+    background-color: rgb(7, 94, 134);
+}
+a:hover{
+    background-color: blue;
+}
