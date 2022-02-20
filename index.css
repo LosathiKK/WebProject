@@ -1,5 +1,16 @@
-hi{
-    float:right;
-    font-family: Arial;
-    font-size: medium;
+h1{
+    
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    color: orange;
+}
+h3 :hover{
+    text-decoration: underline;
+}
+p.cr{
+    text-align: center;
+
+}
+p.tm{
+    text-align: center;
 }
