@@ -41,11 +41,19 @@ table{
    font-size:40px;
    font-family: 'Times New Roman';
    color:black;
+}   
 
-
-
+body {
+   background-image:url('cde.JPG');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+   background-color: blanchedalmond;
 
 }
+
+
+
  
 
 
