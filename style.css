@@ -123,3 +123,29 @@
     background: #e1306c;
     border: 1px solid #df2060;
 }
+.facebook:hover{
+    background: #3e61a8;
+}
+.instagram:hover{
+    background: #df2060;
+}
+.links i{
+    font-size: 17px;
+}
+i span{
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.signup{
+    font-size: 15px;
+    color: #fff;
+}
+.signup a{
+    color: #3498db;
+    text-decoration: underline;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
