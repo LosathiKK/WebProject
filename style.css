@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'poppins',sans-serif;
+}
+.bg-img{
+    background: url("dir1/beautiful-woman-studying-online-home_109710-3281.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
