@@ -1,6 +1,6 @@
 h1{
    font-family:'Times New Roman';
-   font: size 30px;;
+   font-size:30px;
    color: aquamarine;
    text-align:center;
 
@@ -20,6 +20,30 @@ img{
    padding: 15px;
    border-image: url(border.png)30 stretch;
    
+
+}
+
+form{
+   text-align:center;
+   
+
+
+}
+p{
+   font-family:'Bradley hand ITC';
+   font-size:30px;
+   color:cornflowerblue;
+   text-align:left;
+
+}
+
+table{
+   font-size:40px;
+   font-family: 'Times New Roman';
+   color:black;
+
+
+
 
 }
  
