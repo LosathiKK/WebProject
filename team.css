@@ -8,3 +8,13 @@ h4{
     text-decoration: rgb(45, 153, 172);
     
 }
+.main-nav{
+    display: inline-flex; 
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.main-nav li {
+    justify-content: space-between;
+    margin: 4rem;
+}
