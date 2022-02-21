@@ -14,8 +14,17 @@ h1.logo{
     text-shadow: 5px 5px #00ff80be;
 }
 
-.showcase video{
+.nav {
     position: absolute;
+    text-align: center;
+    
+}
+.footer {
+    position: absolute;
+}
+
+.showcase video{
+    position:absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -36,10 +45,9 @@ h1.logo{
 
 h3 :hover{
     text-decoration: underline;
-}
-h3{
     text-align: center;
 }
+
 p.cr{
     text-align: center;
 
