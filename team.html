@@ -3,7 +3,11 @@
         
         <link rel="stylesheet" type="text/css" href="Team.css"/>
         
-        <title> Team 59 </title>
+        <title>
+            Team59
+        </title>
+
+        <link rel="shortcut icon" href="favicon.ico">
 
         <style>
 
@@ -15,31 +19,30 @@
                 text-align: center;
             }
 
+            img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
         </style>
     </head>
 
     <body>
 
         <header>
-            <img src="logo (1).jpg" width="100" height="50" >
 
-            <h1 class="te">
-                Team 59
-            </h1>
-        </header>
-        
-        
-
-        <nav class="main-nav-outer" id="test">
-            <div class="container">
-                <ul class="main-nav">
-                    <li><a href="#ourteam"> OUR TEAM </a></li>
-                    <li><a href="#aboutus"> ABOUT US </a></li>
-                    <li><a href="#contactus"> CONTACT US </a></li>
-                </ul>
-                <a class="res-nav_click" href="#"> <i class="fa-bars"></i></a>
+            <div style="display: inline-block;vertical-align: text-bottom; align-items: center;">
+                <img src="logo (1).jpg" width="100" height="50" class="center;" >
             </div>
-        </nav>
+            
+            <div style="display: inline-block; align-content: center;">
+                <p>
+                    Team 59
+                </p>
+            </div>
+            
+        </header>
 
         <h3>
             OUR TEAM
@@ -49,27 +52,29 @@
             <tr>
                 <td>
                     <h4>KKS Losathi</h4>
-                    <img src="FB_IMG_1640428950525.jpg" width="450" height="300">
+                    <img src="Sanali.jpg" width="400" height="300">
                 </td>
 
                 <td>
                     <h4>RTD Wijesundara</h4>
-                    <img src="Thenuka.jpeg" width="450" height="300">
+                    <img src="Thenuka.jpeg" width="400" height="300">
                 </td>
 
                 <td>
                     <h4>HRUI Bandara</h4>
-                    <img src="Udantha.jpeg" width="450" height="300">
+                    <img src="Udantha.jpeg" width="400" height="300">
                 </td>
-            
+            </tr>
+
+            <tr>
                 <td>
-                    <h4>JAI Nipunika</h4>
-                    <img src="Ishanki.jpg" width="450" height="300">
+                    <h4>WABDN Wimaladharma</h4>
+                    <img src="Dilshan.jpg" width="400" height="300">
                 </td>
 
                 <td>
-                    <h4>WABDN Wimaladharma</h4>
-                    <img src="Dilshan.jpg" width="450" height="300">
+                    <h4>JAI Nipunika</h4>
+                    <img src="Ishanki.jpg" width="400" height="300">
                 </td>
             </tr>
         </table>
@@ -103,27 +108,30 @@
         </h3>
 
         <div class="container">
-            <section class="main-section contact" id="contact">
+            <section class="main" id="contact">
 
                 <div class="row">
-                    <div class="col-lg-6 col-sm-7 wow fadeInLeft">
-                        <div class="contact-info-box address clearfix">
-                            <h3><i class="icon-map-marker"></i>Address:</h3>
+                    <div class="infobox">
+                        <div class="datail">
+                            <img src="address.png" width="20" height="20">
+                            <h3>Address:</h3>
                             <span>NSBM Green University<br>Malabe.</span>
                         </div>
-                        <div class="contact-info-box phone clearfix">
-                            <h3><i class="fa-phone"></i>Phone:</h3>
+                        <div class="detail">
+                            <img src="phone.png" width="20" height="20">
+                            <h3>Phone:</h3>
                             <span>+94 70 234 0149</span>
                         </div>
-                        <div class="contact-info-box email clerfix">
-                            <h3><i class="fa-pencil"></i>E-mail:</h3>
+                        <div class="detail">
+                            <img src="mail.png" width="20" height="20">
+                            <h3>E-mail:</h3>
                             <span>Team59LK@gmail.com</span>
                         </div>
                     </div>
 
                     <h4 class="us"> GET IN TOUCH WITH US </h4>
 
-                    <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+                    <div class="message">
 
                         <form class="form" action="contact_process.php" method="post" id="contactForm">
 
