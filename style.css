@@ -7,7 +7,7 @@
 }
 .bg-img{
     background: url("dir1/beautiful-woman-studying-online-home_109710-3281.jpg");
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
     background-position: center;
 }
@@ -16,7 +16,7 @@
     content: '';
     top: 0;
     left: 0;
-    height: 100%;
+    height: 120vh;
     width: 100%;
     background: rgba(0,0,0,0.7);
 }
