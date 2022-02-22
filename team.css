@@ -1,6 +1,6 @@
-h1{
+h1.te{
     text-align: center;
-    text-decoration: rgb(43, 226, 98);
+    text-decoration: rgb(212, 209, 13);
     
 }
 h4{
@@ -16,5 +16,24 @@ h4{
 }
 .main-nav li {
     justify-content: space-between;
-    margin: 4rem;
+    margin: 1rem;
+}
+
+h4.us{
+    text-align: right;
+
+}
+
+
+form.form{
+    text-align: right;
+}
+
+input.input-btn{
+    text-align: left;
+}
+
+footer{
+    position: absolute;
+    
 }
