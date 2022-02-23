@@ -45,9 +45,11 @@ display: none;
 
 }
 
+
+
 .modal-content{
-    width:500px ;
-    height: 300px;
+    width:600px ;
+    height: 400px;
     background-color: white;
     border-radius: 4px;
     text-align: center;
@@ -62,5 +64,13 @@ display: none;
     font-size: 42px;
     transform: rotate(45deg);
     cursor: pointer;
+}
+
+.tb{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ico{
+    margin-top: 20px;;
 }
 
