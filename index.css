@@ -41,6 +41,7 @@ table{
    font-size:40px;
    font-family: 'Times New Roman';
    color:black;
+   text-align: center;
 }   
 
 body {
@@ -62,26 +63,13 @@ caption{
 
 }
 
-table{
-   font-family: 'cailbri';
-   text-align: center;
-   font-size: 25px;
-}
-
-table,th,td{
-   
-   border-collapse: collapse;
 
 
 
-}
-table.center{
-  margin-left: auto;
-  margin-right: auto;
 
 
 
-}
+
    
 
 
