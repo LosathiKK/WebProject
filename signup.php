@@ -18,7 +18,7 @@
     else{
         $stmt = $conn->prepare("insert into registration(FirstName,LastName,Dob,Address,ContacNumber,Gender,Email,Password,Subject)
         values(?,?,?,?,?,?,?,?,?)");
-        $stmt->bind_param("s,s,s,s,i,s,s,s,s",$FirstName,$LastName,$Dob,$Address,$ContacNumber,$Gender,$Email,$Password,$Subject);
+        $stmt->bind_param("ssssissss",$FirstName,$LastName,$Dob,$Address,$ContacNumber,$Gender,$Email,$Password,$Subject);
         $stmt->execute();
         echo "registration successfully...";
         $stmt->close();
