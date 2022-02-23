@@ -33,8 +33,6 @@ if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['emai
   header("Location: index.php");
 }
 
-
-
 $sname = "localhost";
 $uname = "root";
 $password = "";
