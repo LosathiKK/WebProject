@@ -1,47 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>login form and singup</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/3ad5b32b3c.js" crossorigin="anonymous"></script><!--link kit.fontawesome get for icon-->
+    <title>Registration-form</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/3ad5b32b3c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="bg-img">
-        <div class="content">
-            <header>Login Form</header>
-            <form action="#">
-                <div class="field">
-                    <span class="fa fa-user"></span><!--get icon-->
-                    <input type="text"required placeholder="Email or phone">
-                </div><!--field-->
-                <div class="field space">
-                    <span class="fa fa-lock"></span>
-                    <input type="password" class ="pass-key" required placeholder="Password">
-                </div><!--field-space-->
-                <div class="pass">
-                    <a href="#">Forget password?</a>
-                </div><!--pass-->
-                <div class="field">
-                    <input type="submit" value="LOGIN">
-                </div><!--field-->
-            </form>
-              <div class="login">or login with</div>
-            <div class="links">
-                <div class="facebook">
-                    <i class="fab fa-facebook-f"><span>Facebook</span></i>
-                </div><!--facebook-->
-                <div class="instagram">
-                   <i class="fab fa-instagram"><span>instagram</span></i>
-               </div><!--instagrame-->
-            </div><!--link-->
-            <div class="signup">
-                Don't have account?
-                <a href="#">sign
-                    up Now</a>
-               </div>
-        </div><!--content-->
-       </div><!--bg-img-->
-       
-    <script src="animation.js"></script>
+    <div class="main">
+        <div class=register>
+        <h2>Student  Registration  Form</h2>
+        <form  action="conect.php" method="post" >
+            <label>First Name</label><br>
+            <input type="text" name="FirstName" id="name" placeholder="First name"><br><br>
+            <label>Last Name</label><br>
+            <input type="text" name="LastName" id="name" placeholder="Lastst name"><br><br>
+            <label>Date of birth</label><br>
+            <input type="date" name="Dob" id="name" placeholder="DOB"><br><br>
+            <label>Address</label><br>
+            <textarea name="Address"  cols="30" rows="10" placeholder="your address" id="name"></textarea><br><br>
+            <label>contac Number</label><br>
+            <input type="number" name="ContacNumber" id="name" placeholder="your mobile number"><br><br>
+            <label>Gender</label><br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" id="male" name="Gender" value="m">
+            &nbsp;
+            <span id="male">Male</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" id="Female" name="Gender" value="f"> 
+            &nbsp;
+            <span id="gender">Female</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" id="Other" name="Gender" value="o">
+            &nbsp;
+            <span id="Other">Other</span><br><br>
+            <label>Email</label><br>
+            <input type="email" name="Email" id="name" placeholder="Enter your Email"><br><br>
+            <label>Password</label><br>
+            <input type="password" name="Password" id="name" placeholder="password"><br><br>
+            <label>Conform Password</label><br>
+            <input type="password" name="Password" id="name" placeholder=" Conform password"><br><br>
+            <label>Select your subjects</label><br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="com" name="Subject" value="CombinedMaths">
+            &nbsp;
+            <span id="com">Combined maths</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="phy" name="Subject" value="Physics">
+            &nbsp;
+            <span id="phy">Physics</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="che" name="Subject" value="Chemistry">
+            &nbsp;
+            <span id="che">Chemistry</span><br><br>
+            <input type="submit" value="Submit" name="submit" id="submit">
+            
+        </form>
+     </div>
+     </div>
+           
 </body>
 </html>
