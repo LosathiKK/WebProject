@@ -19,6 +19,13 @@ h3{
     text-align: center;
 }
 
+h3.cu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: left;
+}
+
 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -34,6 +41,80 @@ h2{
     justify-content: space-between;
     align-self: center;
 }
+
+.set-up-location{
+    overflow: hidden;
+    padding-bottom: 35.25%;
+    position: relative;
+    height: 0;
+}
+
+.set-up-location iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.contact-form{
+    margin-left: 100px;
+    width: 100%;
+    max-width: 40rem;
+    margin: 4rem;
+    border-radius: 5px;
+    background-color: #e6ebe6;
+    padding: 20px;
+}
+
+/*.get-in-touch{
+    font-family: poppons;
+    text-align: center;
+    max-width: 60rem;
+    width: 100%;
+    margin: auto;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+}*/
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(210,231,219);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-top: 16px;
+    resize: vertical;
+}
+
+button[type=send]{
+    background-color: #236340;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form-1{
+    display: flex;
+}
+
+/*.open-hours{
+    text-align: center;
+    margin-right: 100px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 100%;
+    margin: 4rem;
+}*/
+
+
+
+
+
 /*
 h4{
     text-align: center;
