@@ -63,3 +63,9 @@ input#submit{
 labal,span,h2{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
+p.cr{
+    text-align: center;
+}
+p.tm{
+    text-align: center;
+}

@@ -148,3 +148,9 @@ i span{
 .signup a:hover{
     text-decoration: underline;
 }
+p.cr{
+    text-align: center;
+}
+p.tm{
+    text-align: center;
+}
