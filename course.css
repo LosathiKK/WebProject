@@ -1,0 +1,27 @@
+div{
+    width: 300px;
+    padding-left: 50px;
+    margin: 20px;
+}
+
+.contact-box{
+    background: rgb(250, 249, 249);
+    display:flex;
+}
+
+.contact-left{
+    background: #666;
+    flex-basis: 50%;
+    padding: 60px 60px;
+}
+
+.contact-right{
+    background: rgb(226, 136, 181);
+    flex-basis: 50%;
+    padding: 60px 60px;
+
+}
+
+h1{
+    margin-top: 10px;
+}
