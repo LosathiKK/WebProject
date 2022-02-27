@@ -25,3 +25,12 @@ div.b {
    border: 15px;
    padding: 50px;
 }
+
+.bg-image{
+   background-image: url("bimg.jpg");
+   filter: blur(6px);
+}
+
+img{
+   background-position: ;
+}
