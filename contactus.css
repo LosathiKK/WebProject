@@ -1,3 +1,26 @@
 h1{
-   font-style: normal ; 
+   font-style: oblique;
+}
+
+div.a {
+   font-size: larger;
+   background-color: rgb(90, 149, 216);
+   width: 650px;
+   height: 500px;
+   border: 15px;
+   padding: 50px;
+}
+
+p{
+   font-style: oblique;
+}
+
+div.b {
+   float: right;
+   font-size: larger;
+   background-color: rgb(168, 115, 152);
+   width: 650px;
+   height: 500px;
+   border: 15px;
+   padding: 50px;
 }
