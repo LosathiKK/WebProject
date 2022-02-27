@@ -6,7 +6,7 @@ div.a {
    float: left;
    font-size: larger;
    background-color: rgb(90, 149, 216);
-   width: 650px;
+   width: 300px;
    height: 500px;
    border: 15px;
    padding: 50px;
@@ -20,7 +20,7 @@ div.b {
    float: right;
    font-size: larger;
    background-color: rgb(168, 115, 152);
-   width: 650px;
+   width: 1000px;
    height: 500px;
    border: 15px;
    padding: 50px;
