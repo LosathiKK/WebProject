@@ -6,10 +6,12 @@ div.a {
    float: left;
    font-size: larger;
    background-color: rgb(90, 149, 216);
-   width: 300px;
-   height: 500px;
+   width: 650px;
+   height: 600px;
    border: 15px;
    padding: 50px;
+   opacity: 0.2;
+
 }
 
 p{
@@ -20,8 +22,8 @@ div.b {
    float: right;
    font-size: larger;
    background-color: rgb(168, 115, 152);
-   width: 1000px;
-   height: 500px;
+   width: 650px;
+   height: 600px;
    border: 15px;
    padding: 50px;
 }
@@ -33,4 +35,24 @@ div.b {
 
 img{
    background-position: ;
+}
+
+body{
+   text-align: center;
+   background-image:url('bg.jpg');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+
+p.cr{
+   text-align: center;
+   font-family: 'Times New Roman';
+   font-size: 20;
+}
+
+p.tm{
+   text-align: center;
+   font-family: 'Times New Roman';
+   font-size: 20;
 }
