@@ -2,6 +2,11 @@ h1{
    font-style: oblique;
 }
 
+h2{
+   font-style: oblique;
+}
+
+
 div.a {
    float: left;
    font-size: larger;
@@ -10,8 +15,6 @@ div.a {
    height: 600px;
    border: 15px;
    padding: 50px;
-   opacity: 0.2;
-
 }
 
 p{
@@ -28,21 +31,8 @@ div.b {
    padding: 50px;
 }
 
-.bg-image{
-   background-image: url("bimg.jpg");
-   filter: blur(6px);
-}
-
-img{
-   background-position: ;
-}
-
 body{
    text-align: center;
-   background-image:url('bg.jpg');
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
-   background-attachment: fixed;
 }
 
 p.cr{
@@ -55,4 +45,8 @@ p.tm{
    text-align: center;
    font-family: 'Times New Roman';
    font-size: 20;
+}
+
+div.mapouter{
+   position: relative;
 }
