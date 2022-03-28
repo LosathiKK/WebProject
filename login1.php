@@ -46,6 +46,7 @@ include "connection.php";
             <div>
 
                 <input class="btn btn-default submit" type="submit" name="submit1" value="Login">
+                <a href="studentprofile.html"> login </a>
                 <a class="reset_pass" href="#">Lost your password?</a>
             </div>
 

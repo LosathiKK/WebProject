@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@
   user-select: none;
   font-family: 'Poppins', sans-serif;
 }  
-.login{
+.login_wrapper{
   background: url("dir1/beautiful-woman-studying-online-home_109710-3281.jpg") no-repeat;
   height: auto;
   background-size: cover;
   background-position: center;
 }
-/*
+*/
 {
   position: absolute;
   content: "";
